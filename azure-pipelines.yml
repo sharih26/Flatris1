@@ -9,13 +9,13 @@ trigger:
 variables:
  
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: 'YourServiceConnectionName'
+  azureSubscription: 'connection1'
   
   # Web app name
-  webAppName: 'YourLinuxApp'
+  webAppName: 'ssbwebap'
   
   # Resource group
-  resourceGroupName: 'YourRG'
+  resourceGroupName: 'myrg1'
  
   # Environment name
   environmentName: 'YourLinuxApp'
